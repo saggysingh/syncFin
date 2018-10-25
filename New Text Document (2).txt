@@ -1,0 +1,9 @@
+POST: https://vdlsyficmapda01.cpu.syfbank.com:7002/cs/REST/sites
+	username=sagar.singh1
+	password: password
+it is being redirect to : https://vdlsyficmapda01.cpu.syfbank.com:7002/cas/login?service=https%3A%2F%2Fvdlsyficmapda01.cpu.syfbank.com%3A7002%2Fcs%2FREST%2Fsites
+
+https://vdlsyficmapda01.cpu.syfbank.com:7002/cs/REST/sites/ContentHub/types/Hub_NewsPost_C/search?field:createdby:equals=sagar.singh1&field:FeaturedNews:equals=yes&field:NewsType:contains=Announcement
+
+https://vdlsyficmapda01.cpu.syfbank.com:7002/cas/login?service=https%3A%2F%2Fvdlsyficmapda01.cpu.syfbank.com%3A7002%2Fcs%2FREST%2Fsites%2FContentHub%2Ftypes%2FHub_NewsPost_C%2Fsearch%3Ffield%3Acreatedby%3Aequals%3Dsagar.singh1%26field%3AFeaturedNews%3Aequals%3Dyes%26field%3ANewsType%3Acontains%3DAnnouncement
+
