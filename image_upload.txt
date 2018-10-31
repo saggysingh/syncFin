@@ -1,0 +1,26 @@
+Hi Pawan,
+
+As we have discussed image required the blob object while uploading. I was checking the blob object of image in read API that is giving me SYF URL. That means somewhere the images are uploaded on SYF server.
+
+Image URL For Showing the Image on Edit Page:
+https://vdlsyficmapda01.cpu.syfbank.com:7002/cs/BlobServer?blobkey=id&blobnocache=true&blobwhere=1429920716840&blobheadername3=MDT-Type&blobheadername2=Content-Disposition&blobheadername1=Content-Type&blobheadervalue3=abinary%3B+charset%3DUTF-8&blobheadervalue2=attachment%3B+filename%3D%22social%2B-%2BCopy.jpg%22%3Bfilename*%3DUTF-8%27%27social%2B-%2BCopy.jpg&blobheadervalue1=image%2Fjpeg&blobcol=urldata&blobtable=MungoBlobs
+
+Below is the Blob Object that we are getting from Read API:
+{"name":"ThumbnailImage","data":{"blobValue":{"filename":"756/772/social - Copy.jpg","foldername":"/appdata/sf/Oracle/Middleware/11.1.1.8/shared/ccurl/","filedata":"","href":"https://vdlsyficmapda01.cpu.syfbank.com:7002/cs/BlobServer?blobkey=id&blobnocache=true&blobwhere=1429920716840&blobheadername3=MDT-Type&blobheadername2=Content-Disposition&blobheadername1=Content-Type&blobheadervalue3=abinary%3B+charset%3DUTF-8&blobheadervalue2=attachment%3B+filename%3D%22social%2B-%2BCopy.jpg%22%3Bfilename*%3DUTF-8%27%27social%2B-%2BCopy.jpg&blobheadervalue1=image%2Fjpeg&blobcol=urldata&blobtable=MungoBlobs"}}}
+
+Also i was also doing some research how we can create the blob object. As per my research, these should be flow for creating the blob object:
+
+1. We need to upload the files on server. 
+2. We need to call the API for directly accessing the Image URL, That API response should be Blob.
+3. After getting the Blob object from #2 API, We need to send in POST API.
+
+Please read the below article for understaing:
+https://brianflove.com/2017/11/02/angular-http-client-blob/
+
+Can you please have a look and let us know the flow for creating a blob object for image/Video or any assets on SYF server? We may be need some API:
+
+1. File Upload API on OWCS server.
+
+I hope it will help you more.
+
+Please have a look and let me know your thoughts. If you will provide your thoughts that will be really great help from your side.
