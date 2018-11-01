@@ -3,3 +3,6 @@ https://vdlsyficmapda01.cpu.syfbank.com:7002/cs/REST/sites/ContentHub/types/Cust
 
 
 {"attribute":[{"name":"name","data":{"stringValue":"adasdad"}},{"name":"tagname","data":{"stringValue":"asdasdasd"}},{"name":"status","data":"ED"},{"name":"createdby","data":"sagar.singh1"},{"name":"Publist","data":["ContentHub"]}],"name":"Custom_Tag","description":"Custom_Tag"}
+
+
+{"attribute":[{"name":"name", "data":{"stringValue":this.data.Name}}, {"name":"tagname", "data":{"stringValue":this.data.TagName}}, {"name":"status", "data":{"stringValue":"ED"}}, {"name":"createdby", "data":{"stringValue":"sagar.singh1"}}, {"name":"Publist", "data":{"stringValue":["ContentHub"]}}], "name":"Custom_Tag", "description":"Custom_Tag"}
