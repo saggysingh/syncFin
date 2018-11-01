@@ -1,0 +1,5 @@
+https://vdlsyficmapda01.cpu.syfbank.com:7002/cs/REST/sites/ContentHub/types/Custom_Tag/assets?multiticket=ST-90-eeKqbOdHyzQYHDHuh3sr-cas-vdlsyficmapda01.cpu.syfbank.com-1
+
+
+
+{"attribute":[{"name":"name","data":{"stringValue":"adasdad"}},{"name":"tagname","data":{"stringValue":"asdasdasd"}},{"name":"status","data":"ED"},{"name":"createdby","data":"sagar.singh1"},{"name":"Publist","data":["ContentHub"]}],"name":"Custom_Tag","description":"Custom_Tag"}
