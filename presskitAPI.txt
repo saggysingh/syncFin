@@ -1,0 +1,12 @@
+Hi Rama,
+
+We have tried the Press Kit API for list Press Kit:
+
+1. https://vdlsyficmapda01.cpu.syfbank.com:7002/cs/REST/sites/ContentHub/types/Page/search?multiticket=ST-1547-2mfamUe5WdJfSIGYEfDa-cas-vdlsyficmapda01.cpu.syfbank.com-1&field:createdby:equals=sagar.singh1
+
+Error: <errorCode>500</errorCode>
+<message>Index by name Page is not found.</message>
+2. https://vdlsyficmapda01.cpu.syfbank.com:7002/cs/REST/sites/ContentHub/types/Hub_PressKitPage/search?multiticket=ST-1547-2mfamUe5WdJfSIGYEfDa-cas-vdlsyficmapda01.cpu.syfbank.com-1&field:createdby:equals=sagar.singh1
+
+Error: <errorCode>0</errorCode>
+<message>No valid search index source were found</message>
